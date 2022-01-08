@@ -1,0 +1,111 @@
+.catalogo-container {
+    display: grid;
+    height: 100vh;
+    width: 100vh;
+    gap: 40px;
+    border: black 2px;
+    text-align: center;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas: 
+    "producto"
+    "producto"
+    "producto"
+    "producto"
+    "producto"
+    "producto"
+    "producto"
+    "producto";
+}
+
+@media screen and (min-width: 760px) {
+    .catalogo-container {
+        grid-template-areas: 
+        "producto producto"
+        "producto producto"
+        "producto producto"
+        "producto producto"
+        "producto producto"
+        "producto producto"
+        "producto producto"
+        "producto producto";
+    }
+}
+
+.catalogo {
+    margin-left: 28%;
+}
+
+@media screen and (min-width: 760px) {
+    .catalogo-container {
+        max-width: 100vh;
+    }
+}
+
+.catalogo h2 {
+    margin-left: 20%;
+    padding-bottom: 50px;
+}
+
+.catalogo-item1 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/16/10/14/roller-skate-3681029_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item2 {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/13/10/51/baseball-157928_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item3 {
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/03/10/06/american-football-309795_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item4 {
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/03/11/36/ping-pong-311935_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item5 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/10/14/21/skate-3737384_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item6 {
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/03/11/37/tennis-312002_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item7 {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalogo-item8 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/24/11/11/people-characters-4963646_960_720.png);
+    font-size: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
