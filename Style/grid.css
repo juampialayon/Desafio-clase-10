@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vh;
     gap: 40px;
-    border: black 2px;
+    opacity: 80%;
     text-align: center;
     grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
     grid-template-areas: 
@@ -15,6 +15,13 @@
     "producto"
     "producto"
     "producto";
+}
+
+.catalogo-container :hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+    filter: saturate(3);
+    opacity: 100%;
 }
 
 @media screen and (min-width: 760px) {
